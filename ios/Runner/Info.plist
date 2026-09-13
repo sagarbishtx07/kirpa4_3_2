@@ -73,31 +73,31 @@
 		<true/>
 	</dict>
 	<key>NSAppleMusicUsageDescription</key>
-	<string>key NSAppleMusicUsageDescription</string>
+	<string>This app requires access to Apple Music to let you select and play music tracks.</string>
 	<key>NSCalendarsUsageDescription</key>
-	<string>key NSCalendarsUsageDescription</string>
+	<string>This app requires calendar access to help you schedule and manage appointments.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Camera permission is required for barcode scanning.</string>
 	<key>NSContactsUsageDescription</key>
-	<string>key NSContactsUsageDescription</string>
+	<string>This app requires contacts access to help you find and connect with friends.</string>
 	<key>NSFaceIDUsageDescription</key>
-	<string>Why is my app authenticating using face id?</string>
+	<string>This app uses Face ID to securely authenticate your account and protect your personal data.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs Location access for "some reason"!</string>
+	<string>This app requires location access to show you relevant local content and nearby stores.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs Location access for "some reason"!</string>
+	<string>This app requires location access to show you relevant local content and nearby stores.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs Location access for "some reason"!</string>
+	<string>This app requires location access to show you relevant local content and nearby stores.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>We only need play audio and don't need use microphone</string>
 	<key>NSMotionUsageDescription</key>
-	<string>key NSMotionUsageDescription</string>
+	<string>This app requires motion access to track physical activity and improve app interactions.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>$(PRODUCT_NAME) needs permission to save file!</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>$(PRODUCT_NAME) Needs for picker image product review</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>key NSSpeechRecognitionUsageDescription</string>
+	<string>This app requires speech recognition to allow you to use voice commands.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>
