@@ -204,6 +204,7 @@ dependencies:
     path: ./packages/ajax_search
   flutter_svg: ^2.0.5
   flutter_launcher_icons: ^0.14.4
+  package_info_plus: ^9.0.1
 
   # Flutter Appsflyer Plugin
   # appsflyer_sdk: ^6.16.2
