@@ -39,6 +39,19 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     flutter_additional_ios_build_settings(target)
   end
+
+  # Inject Flutter's Generated.xcconfig into the ImageNotification app extension
+  # so it can access variables like FLUTTER_BUILD_NUMBER and FLUTTER_BUILD_NAME.
+  installer.aggregate_targets.each do |target|
+    if target.name == 'Pods-ImageNotification'
+      target.xcconfigs.each do |config_name, config_file|
+        xcconfig_path = target.client_root + target.xcconfig_relative_path(config_name)
+        File.open(xcconfig_path, 'a') do |file|
+          file.puts("\n#include \"../../../Flutter/Generated.xcconfig\"\n")
+        end
+      end
+    end
+  end
 end
 
 target 'ImageNotification' do
